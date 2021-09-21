@@ -38,7 +38,7 @@ export const Homepage = () => {
       return student.firstName.toLowerCase().startsWith(query);
     });
     if (filteredData.length > 0) return filteredData;
-    // matched students
+    //check matched students 
     else if (query.length === 0) return studentsArray;
     //all students
     else return;
